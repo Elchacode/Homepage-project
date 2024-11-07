@@ -1,0 +1,118 @@
+.body{
+    background-color: #a4bfa3;
+    color: #333333;
+    font-family: Georgia;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.header{
+    background-color: #8e735b;
+    color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #6c8b6c;
+    border-top: 5px solid #6c8b6c;
+
+
+}
+
+.header h1{
+        margin: 0;
+        color: #333;
+}
+
+.header h3{
+    margin: 10px 0;
+    color: #555;
+}
+
+.header p{
+        margin: 0;
+        color:  #333;
+        
+}
+
+.section{
+    margin: 20px;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    border: 3px solid  #333 ;
+    align-items: self-start;
+    margin: 20px auto;
+    padding: 20px;
+    transition: border-color 0.3s ease;
+    background-color: #f0f4f0;
+    
+ 
+
+}
+
+.section div{
+   text-align: center;
+   flex-basis: 100%;
+
+}
+
+.flex-row > img{
+    margin-right: 20px;
+}
+
+.section div:hover{
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.section img{
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    margin: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.section img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+
+.About{
+    color: #6c8b6c;
+    margin: 5px;
+
+}
+
+
+.flex-row .p {
+    color: #333;
+    line-height: 1.6;
+    margin-top: 10px;
+    text-align: justify;
+    flex-basis: 150%;
+}
+
+.flex-row h4{
+    margin: 15px ;
+}
+
+
+
+#Awo{
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #8b9e72;
+    color: white;
+   
+}
